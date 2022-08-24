@@ -1,9 +1,14 @@
 import './App.css';
+import SearchBox from './components/searchBox/searchBox.component';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <h2>Hello from App</h2>
+      <h1 className="app-title">Cartoon KittenDex</h1>
+      <SearchBox
+          placeholder="Search Kittens"
+          className="kitten-search-box" 
+          />
     </div>
   );
 }
