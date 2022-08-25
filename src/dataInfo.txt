@@ -1,0 +1,4 @@
+Use random fake user generator to get first name, last name country and email info
+
+https://randomuser.me/api/?results=50
+
