@@ -1,4 +1,5 @@
-Use random fake user generator to get first name, last name country and email info
-
+Random fake user generator to get first name, last name country and email info:
 https://randomuser.me/api/?results=50
 
+Site for cartoon kitten use ID from fake data:
+https://robohash.org/1?set=set4
