@@ -5,12 +5,11 @@ import CardList from "./components/cardList/cardList.component"
 import SearchBox from "./components/searchBox/searchBox.component"
 
 const App = () => {
-  const [searchField, setSearchField] = useState("")
   const [kittens, setKittens] = useState([])
   const [filteredKittens, setFilteredKittens] = useState([])
+  const [searchField, setSearchField] = useState("")
 
   useEffect(() => {
-    console.log("use effect kitt fires now")
     fetch("https://api.onlinewebtutorblog.com/employees")
       .then((response) => response.json())
       .then((users) => {
@@ -20,7 +19,6 @@ const App = () => {
   }, [])
 
   useEffect(() => {
-    console.log("Next use effect to filter")
     const newFilteredKittens = kittens.filter((kitten) => {
       return kitten.name.toLowerCase().includes(searchField)
     })

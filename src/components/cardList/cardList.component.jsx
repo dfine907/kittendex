@@ -1,5 +1,7 @@
 import Card from "../card/card.component"
 
+import './cardList.styles.css'
+
 const CardList = (props) => {
   const { kittens } = props
 

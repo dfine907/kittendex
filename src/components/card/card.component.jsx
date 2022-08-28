@@ -1,5 +1,7 @@
 import React from "react"
 
+import './card.styles.css'
+
 const Card = ({ kitten }) => {
   const { name, email } = kitten
   const id = Math.floor(Math.random() * 100)
