@@ -8,11 +8,15 @@
     border-radius: 8px;
     padding: 25px;
     cursor: pointer;
-    backface-visibility: hidden;
-    transform: translateZ(0);
-    transition: transform 0.25s ease-out;
+    width: 10em;
+    margin: 10px;
 }
 
 .card-container:hover {
     transform: scale(1.05);
+  }
+
+  p {
+    font-size: 1.25em;
+    word-wrap: break-word;
   }

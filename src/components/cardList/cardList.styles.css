@@ -2,6 +2,7 @@
     width: 75vw;
     margin: 0 auto;
     display: flex;
+    justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
     /* display: grid;
